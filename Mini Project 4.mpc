@@ -1,0 +1,47 @@
+8000
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Courier New;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\li195\cf1\f0\fs20 LXI H 1000h
+\par MVI A 01h
+\par 
+\par GO: CMP M
+\par JZ FOUND
+\par INX H
+\par JMP GO
+\par 
+\par FOUND: XCHG
+\par HLT\cf0 
+\par }
+<End Codes>
+16
+1| 1000| 33
+2| 1001| 09
+3| 1002| 89
+4| 1003| 91
+5| 1004| AA
+6| 1005| BB
+7| 1006| FF
+8| 1007| AA
+9| 1008| FA
+10| 1009| BC
+11| 100A| 12
+<End UserData>
+20
+1| 8000| 21
+2| 8001| 00
+3| 8002| 10
+4| 8003| 3E
+5| 8004| 01
+6| 8005| BE
+7| 8006| CA
+8| 8007| 0D
+9| 8008| 80
+10| 8009| 23
+11| 800A| C3
+12| 800B| 05
+13| 800C| 80
+14| 800D| EB
+15| 800E| 76
+<End HexData>
+
+<End Comment>
